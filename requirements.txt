@@ -1,0 +1,33 @@
+# Core ML dependencies
+torch>=2.0.0
+transformers>=4.40.0
+datasets>=2.18.0
+accelerate>=0.28.0
+
+# TRL - Transformer Reinforcement Learning (industry standard)
+trl>=0.8.0
+
+# Efficient training (QLoRA/PEFT)
+peft>=0.10.0
+bitsandbytes>=0.43.0
+
+# Unsloth for memory-efficient training (optional, but recommended)
+# unsloth @ git+https://github.com/unslothai/unsloth.git
+
+# Experiment tracking
+wandb>=0.16.0
+
+# Evaluation
+evaluate>=0.4.0
+scikit-learn>=1.4.0
+
+# Utilities
+tqdm>=4.66.0
+numpy>=1.26.0
+pandas>=2.2.0
+
+# Development
+ipython>=8.0.0
+jupyter>=1.0.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
